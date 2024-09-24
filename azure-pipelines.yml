@@ -11,5 +11,5 @@ steps:
   displayName: 'Install dependencies'
 
 - script: |
-    generate_qr.py
+    python generate_qr.py
   displayName: 'Generate QR code'
